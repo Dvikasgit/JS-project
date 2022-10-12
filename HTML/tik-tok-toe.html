@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="../Bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../Css/tik-tok-toe.css">
+    
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 150px;
+        color: black;
+    }
+    .container {
+            text-align: center;
+            display: grid;
+            grid-template-rows: repeat(3, 10vw);
+            grid-template-columns: repeat(3, 10vw);
+            margin-left: 500PX;
+            font-size:155PX;    
+        }     
+</style>
+
+<body>
+    <div class="container">
+        <input type="button" value="" class="buttons" id="btn1" onclick="myfun1() ; match()">
+        <input type="button" value="" class="buttons" id="btn2" onclick="myfun2() ; match()">
+        <input type="button" value="" class="buttons" id="btn3" onclick="myfun3() ; match()">
+       
+        <input type="button" value="" class="buttons" id="btn4" onclick="myfun4() ; match()">
+        <input type="button" value="" class="buttons" id="btn5" onclick="myfun5() ; match()">
+        <input type="button" value="" class="buttons" id="btn6" onclick="myfun6() ; match()">
+        
+        <input type="button" value="" class="buttons" id="btn7" onclick="myfun7() ; match()">
+        <input type="button" value="" class="buttons" id="btn8" onclick="myfun8() ; match()">
+        <input type="button" value="" class="buttons" id="btn9" onclick="myfun9() ; match()"> 
+    </div>
+    <button type="button" id="button" onclick="myget()" style="font-size:25PX ;">Reset</button>
+
+
+    <script src="../JS/tik-tok-toe.js"></script>
+    <script>
+        
+    </script>
+
+</body>
+
+</html>
